@@ -1,0 +1,263 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+#main-content{
+	margin-left: 210px;
+}
+.magiTop{
+	margin-top: -4% !important;
+}
+body{
+	background-color: #E6E6E6 !important;
+}
+.wrapper{
+	padding-top: 5%;
+}
+.login-wrap{
+	margin-left: 35%;
+	background-color: white;
+	margin-right: 35%;
+	padding-left: 3%;
+	padding-right: 3%;
+	border-radius: 0 0 5px 5px;
+	padding-top: 2%;
+	margin-top: -1%;
+}
+.form-login-heading{
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 25px 25px;
+	text-align: center;
+	background-color: #68dff0;
+	border-radius: 5px 5px 0 0;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.container-fluid{
+	padding-left: 0px !important;
+}
+.registration{
+	text-align: center;
+	margin-top: 2%;
+	padding-bottom: 5% !important;
+}
+#sidebar{
+	width: 210px;
+	height: 100%;
+	background-color: #424a5d;
+	position: fixed;
+}
+.sub-menu{
+	padding: 5px 0px px 10px !important;
+	font-size: 12px;
+}
+.header{
+	background-color: #424A5D;
+	height: 50px !important;
+	width: 100% !important;
+	border-bottom: 1px solid #000;
+	position: fixed;
+	z-index: 1002;
+	margin-top: 0%;
+}
+.active{
+	background-color: purple;
+}
+.icogalle{
+	margin-top: 5%;
+}
+.sidebar-toggle-box{
+	width: 50px;
+	height: 50px;
+	font-size: 22px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+}
+.logo{
+	color: white;
+	font-size: 135%;
+}
+.clrgri{
+	color: #B6B0B0 !important;
+}
+.logout{
+	color: #f2f2f2;
+	font-size: 12px;
+	border-radius: 4px;
+	border: 1px solid #9c4c9d !important;
+	margin-right: 68% !important;
+	background: #9c4c9d;
+	margin-top: -66% !important;
+	margin-left: -70% !important;
+}
+.logout:hover{
+	background-color: #E414D8 !important;
+}
+.img-circle{
+	margin-top: 40%;
+	margin-left: -35% !important;
+}
+h5{
+	color: #f2f2f2 !important;
+	font-weight: 700 !important;
+	margin-left: -30% !important;
+	margin-bottom: 10% !important;
+}
+ul li{
+	list-style-type: none;
+	outline-style: none;
+	list-style: none;
+	margin-left: -13%;
+	padding: 10%;
+}
+.img-responsive{
+	margin-bottom: 5%;
+}
+
+.box1{
+	color: #989898;
+	text-align: center;
+	font-size: 500%;
+	border-bottom: 1px solid #989898;
+}
+.box1:hover{
+	border-bottom: transparent;
+}
+.box0:hover p {
+	color: #FF865c;
+}
+.box0 p{
+	text-align: center;
+	font-size: 12px;
+	color: #f2f2f2;
+}
+.h3titulo{
+	background-color: #9c4c9d;
+	color: white;
+	text-align: center;
+}
+.ds{
+	background-color: white;
+}
+.thumb{
+	display: inline-block;
+	font-size: 150%;
+	color: #68DFF0;
+}
+.desc{
+	color: gray;
+	border-bottom: 1px solid gray;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+
+}
+.page-header{
+	margin-left: 10% !important;
+}
+.badge{
+	background-color: #0ff !important;
+	font-size: 90% !important
+}
+.details{
+	display: inline-block;
+	font-size: 70%;
+	padding-bottom: 4%;
+	padding-top: 4%;
+}
+.candy{
+	background-color: #9c4c9d; 
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	color: white;
+	font-size: 90%;
+	
+}
+.showback{
+	background-color: white;
+	padding: 2%;
+	margin-bottom: 2%;
+	box-shadow: 2px 2px 5px #999;
+}
+.back1{
+	background-color: transparent !important;
+}
+.content-panel{
+	background-color: white;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+.mt{
+	background-color: white;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+.aLi{
+	color: gray;
+}
+.box0 p{
+	text-align: center;
+	font-size: 12px;
+	color: transparent;
+}
+.box0:hover{
+	background-color: white;
+}
+.table-hover{
+	margin-left: 2%;
+}
+li:hover{
+	background-color: #9c4c9d;
+	color: white !important;
+}
+a:hover{
+	color: white !important;
+	text-decoration: none !important;
+}
+.fa.heart:before{
+	content: "\f004";
+}
+@media (min-width: 0px) and (max-width: 767px){
+	.visible-xs{
+		margin-top: -10%;
+		margin-left: 10%
+	}
+	.login-wrap{
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: -3%;
+	}
+	.form-login-heading{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.box0{
+		margin-top: 5%;
+	}
+	#main-content{
+	margin-left: 0px;
+	}
+	.showback{
+		padding-top: 5%;
+	}
+	.wrapper{
+		padding-top: 10%;
+	}
+
+}

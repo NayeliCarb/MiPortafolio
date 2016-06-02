@@ -1,0 +1,432 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+#header .navbar {
+  background-color: #E0DCDC !important; }
+#header a {
+  color: #9C9494 !important; }
+#header .navbar-toggle {
+  border: 1px solid #B7AFAF; }
+#header .icon-bar {
+  color: #B7AFAF;
+  border: 2px solid #B7AFAF; }
+
+#myNavbar ul {
+  margin-left: 60%;
+  margin-top: -5%; }
+#myNavbar li a {
+  color: #9C9494 !important; }
+
+#horario {
+  margin-top: 5%; }
+  #horario i {
+    color: #8B8585;
+    display: inline-block; }
+  #horario h4 {
+    font-family: 'Arimo', sans-serif;
+    display: inline-block;
+    position: absolute;
+    letter-spacing: 2px;
+    color: #8B8585;
+    margin-top: 0% !important; }
+  #horario p {
+    font-family: 'Arimo', sans-serif;
+    color: #8B8585;
+    display: inline-block; }
+  #horario img {
+    margin-left: 20%; }
+  #horario #custom-search-input {
+    width: 20%;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+    float: right; }
+  #horario #custom-search-input input {
+    border: 0;
+    box-shadow: none;
+    width: 60%; }
+  #horario #custom-search-input button {
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc; }
+  #horario #custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc; }
+  #horario #custom-search-input .glyphicon-search {
+    font-size: 23px; }
+
+#navMenu .navbar {
+  border: none !important;
+  height: 4em !important;
+  margin-bottom: 2%; }
+
+#backnuevo {
+  background-color: #E0DCDC !important;
+  margin-top: 5% !important;
+  padding-top: 2% !important; }
+  #backnuevo a {
+    font-weight: 600; }
+  #backnuevo a:hover {
+    background-color: #D57676 !important;
+    color: white !important;
+    font-weight: 100; }
+  #backnuevo .dropShop {
+    float: right;
+    margin-left: 70%;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #444040;
+    color: #fff !important;
+    font-size: 1.5em;
+    width: 6em;
+    padding: .5%; }
+  #backnuevo .dropdown-menu {
+    margin-left: 80%; }
+  #backnuevo .cant {
+    font-size: .5em !important; }
+  #backnuevo .acce {
+    color: black; }
+  #backnuevo .oferta {
+    position: absolute;
+    margin-top: -10%; }
+  #backnuevo i {
+    margin-left: 5%; }
+  #backnuevo .dropdown-toggle span {
+    width: 5em; }
+  #backnuevo .prec span {
+    color: #DD6D6D; }
+
+#footer ul li {
+  margin-left: -30%;
+  line-height: 200%; }
+#footer .backfoot {
+  background-color: #EEE6E6; }
+#footer .icons {
+  padding: 4%;
+  background-color: white;
+  color: gray;
+  font-size: 1.5em; }
+#footer a {
+  color: #807B7B;
+  font-size: .9em; }
+#footer .backultfoo {
+  background-color: #454242;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%; }
+#footer .backultfoo a {
+  color: #E58E67; }
+#footer p {
+  font-size: .8em;
+  line-height: 1.7;
+  display: inline-block; }
+#footer .icocir {
+  background-color: white;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+  padding: 3%; }
+#footer img {
+  display: inline-block;
+  float: right; }
+
+footer {
+  background-color: #EEE6E6; }
+
+#contact {
+  background-image: url(../images/client-bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 30em;
+  padding-top: 10%; }
+  #contact p {
+    font-weight: 600;
+    font-size: 3.5em;
+    background-color: #FD845A;
+    color: white;
+    display: inline-block;
+    padding-right: 2%;
+    margin-top: 5%; }
+  #contact span {
+    display: block;
+    margin: 3% 0 3% 0;
+    color: white; }
+
+#map {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  #map input {
+    border: none;
+    background-color: #E6E0E0;
+    height: 2.5em;
+    margin-bottom: 3%;
+    margin-left: 2%; }
+  #map .inpDos {
+    width: 45%; }
+  #map input {
+    padding-left: 1%; }
+  #map .inpTres {
+    width: 93%; }
+  #map .mess {
+    height: 10em;
+    padding-bottom: 19%; }
+  #map button {
+    border: none;
+    background-color: #5E5C5C;
+    color: white;
+    width: 5em;
+    height: 3em;
+    float: right;
+    margin-right: 5%; }
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #clients img {
+    width: 45% !important;
+    margin-left: 4% !important; }
+
+  #custom-search-input {
+    width: 40% !important;
+    margin-top: -35% !important; }
+
+  #custom-search-input input {
+    width: 80% !important; }
+
+  #carrusel h2 {
+    font-size: 1em !important;
+    margin-left: 20% !important; }
+
+  #carrusel h3 {
+    font-size: 1em !important;
+    margin-left: 31% !important; }
+
+  #carrusel .punUno {
+    font-size: 0.7em;
+    margin-left: 5% !important; }
+
+  #carrusel .punDos {
+    font-size: 0.7em; }
+
+  #carrusel img {
+    margin-top: 5%; }
+
+  #imgAcc img {
+    width: 100%;
+    margin-top: 5%; }
+
+  .dropShop {
+    margin-top: -18%; }
+
+  #header .navbar {
+    margin-bottom: 2%; }
+
+  #footer img {
+    float: none;
+    margin-left: 15% !important; }
+
+  #footer p {
+    margin-left: 10%; }
+
+  #backnuevo .dropdown-menu {
+    margin-left: 25%; }
+
+  #backnuevo .oferta {
+    margin-left: 50%; }
+
+  #backnuevo .prec span {
+    float: right !important; }
+
+  #cuaAccUno .sale {
+    margin-top: -81% !important; }
+
+  #cuaAccUno .new {
+    margin-top: -66% !important; }
+
+  #cuaAccUno span {
+    margin-left: 30% !important; } }
+body {
+  font-family: 'Arimo', sans-serif; }
+
+#carrusel {
+  margin-bottom: 5%; }
+  #carrusel i {
+    position: absolute;
+    margin-left: 280%; }
+  #carrusel .punUno {
+    margin-left: 2%;
+    margin-top: 28%; }
+  #carrusel .punDos {
+    margin-top: 28%; }
+  #carrusel h2 {
+    border: 1px solid #fff;
+    color: #fff;
+    position: absolute;
+    margin-top: -23%;
+    padding: 1%;
+    margin-left: 25%;
+    font-size: 3em;
+    font-family: 'Quicksand', sans-serif !important; }
+  #carrusel h3 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif !important;
+    margin-top: -15%;
+    position: absolute;
+    margin-left: 40%; }
+
+#imgAcc {
+  margin-bottom: 5%; }
+
+#navUno i {
+  font-weight: 800; }
+#navUno ul {
+  text-align: center; }
+#navUno li {
+  display: inline-block;
+  padding: 1%; }
+#navUno a {
+  color: #6C6868; }
+
+#cuaAcc {
+  border: 1px solid #D6CECE;
+  padding: 2%;
+  text-align: center; }
+  #cuaAcc img {
+    width: 100%; }
+  #cuaAcc span {
+    color: #E55757;
+    display: block; }
+  #cuaAcc .new {
+    background-color: #F47979;
+    color: white;
+    position: absolute;
+    padding: 2%;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -70%;
+    padding-right: 5%; }
+
+#cuaAccUno {
+  border: 1px solid #D6CECE;
+  padding: 2%;
+  text-align: center; }
+  #cuaAccUno img {
+    width: 100%; }
+  #cuaAccUno .dis {
+    display: block; }
+  #cuaAccUno .precant {
+    color: #DDD7D7;
+    margin-left: 10% !important;
+    position: absolute; }
+  #cuaAccUno span {
+    color: #E55757;
+    margin-left: 10% !important; }
+  #cuaAccUno .new {
+    background-color: #F47979;
+    color: white;
+    position: absolute;
+    padding: 2%;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -70%;
+    padding-right: 5%; }
+  #cuaAccUno .sale {
+    background-color: #3A3737;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -85%;
+    position: absolute;
+    padding: 2%;
+    padding-right: 5%; }
+
+.backImg {
+  background-image: url(../images/client-bg.jpg);
+  background-size: 140% 100%;
+  width: 101.1%;
+  height: 20em;
+  padding-top: 6%;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+#clients img {
+  width: 16%;
+  padding: 1%; }
+
+#carrito {
+  margin-top: 3%; }
+  #carrito img {
+    width: 40%;
+    display: inline-block;
+    border: 1px solid #DCD8D8;
+    padding: 1%;
+    margin-right: 5%; }
+  #carrito .cart {
+    color: white;
+    background-color: #464343;
+    padding: 3%;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 24%; }
+  #carrito p {
+    display: inline-block;
+    margin-right: 25%;
+    margin-top: 2%;
+    position: absolute; }
+  #carrito span s {
+    color: #E3E0E0;
+    margin-top: -5%; }
+  #carrito span {
+    color: #E36161;
+    margin-left: 2%;
+    margin-top: 11%;
+    position: absolute; }
+  #carrito .iconStar {
+    position: absolute;
+    margin-left: 45% !important;
+    margin-top: -20%; }
+  #carrito .new {
+    background-color: #F47979;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7em;
+    position: absolute;
+    padding: 2%;
+    margin-left: -40%;
+    margin-top: 10%; }
+  #carrito .sale {
+    background-color: #3A3737;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7em;
+    position: absolute;
+    padding: 2%;
+    margin-left: -40%; }
+
+#blog a {
+  color: #D23838; }
+#blog p {
+  font-weight: 100 !important; }
+#blog img {
+  width: 100%; }
+
+#order {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  #order .cuaContact {
+    border: 2px solid #E6D9D9;
+    padding: 5%;
+    height: 5em !important; }
+  #order i {
+    border-right: 1px solid #E6D9D9;
+    padding-right: 4%; }
+  #order span {
+    font-weight: 100;
+    margin-left: 7%;
+    margin-top: -3%;
+    position: absolute; }
+  #order p {
+    font-weight: 100;
+    margin-left: 20%;
+    margin-top: -5%; }
+
+/*# sourceMappingURL=main.css.map */

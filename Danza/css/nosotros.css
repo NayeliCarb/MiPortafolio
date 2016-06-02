@@ -1,0 +1,191 @@
+/*estilo de li para quitarle decoracion*/
+li{
+	list-style-type: none;
+	margin:20px;
+	display: inline-block;
+}
+h1{
+	margin-top: 20px;
+}
+/* fondo de imagen con cuadro enmedio*/
+.back1{
+	background-image: url("../img/dance_7.jpg");
+	background-size: 120%;
+	width: 100%;
+	height: 400px;	
+}
+.cuadroNos{
+	width: 500px;
+	height: 170px;
+	background-color: black; opacity: 0.5;/*darle transparencia a cuadro negro*/
+	margin-left: 430px;
+	margin-top: 90px;
+	padding-top: 30px;
+} 
+.pNoso{
+	padding-top: 10px;
+	font-family: Latolight;
+}
+/*titulo de pilar con linea de bottom*/
+.pilar{
+	margin-top: 50px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: #848484;
+	border-bottom: 1px solid #848484;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.pPilar{
+	color: #848484;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	
+}
+.pInstruc{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+.ins{
+	width: 220px;
+	height: 200px;
+	margin-left: 20px;  
+}
+.ins1{
+	background-image: url("../img/profesor_4.jpg");
+	background-size: 110%;
+}
+.nomIns{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 20px;
+}
+.desIns{
+	margin-left: 20px;
+	font-size: 13px;
+	margin-bottom: 50px;	
+}
+.ins2{
+	background-image: url("../img/profesor_14.jpg");
+	background-size: 110%;
+	margin-left: 20px;  
+}
+.nomIns2{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 25px;
+}
+.desIns2{
+	margin-left: 25px;
+	font-size: 13px;
+	margin-bottom: 50px;	
+}
+.ins3{
+	background-image: url("../img/profesor_1.jpg");
+	background-size: 110%;
+}
+.ins4{
+	background-image: url("../img/profesor_10.jpg");
+	background-size: 110%;
+}
+.ins5{
+	background-image: url("../img/profesor_11.jpg");
+	background-size: 110%;
+}
+.ins6{
+	background-image: url("../img/profesor_12.jpg");
+	background-size: 110%;
+}
+.ins7{
+	background-image: url("../img/profesor_9.jpg");
+	background-size: 110%;
+}
+.ins8{
+	background-image: url("../img/profesor_15.jpg");
+	background-size: 110%;
+}
+.back2{
+	background-image: url("../img/textura_1.jpg");
+}
+.frase1{
+	text-align: center;
+	font-size: 40px;
+	font-family: Latolight;
+	font-style: italic;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.back4{
+	width: 60%;
+	height: 400px;
+	position: absolute;	
+	margin-left: 500px;
+}
+.backPilar{
+	background-image: url("../img/cubes.png");
+	width: 100%;
+}
+.pConta{
+	font-family: Latolight;
+	margin-top: 60px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.inp1{
+	border:2px solid #D8D8D8;
+	width: 500px;
+	height: 40px;
+	margin-top: 10px;
+	background-image: url("../img/perfil.png");
+	background-size: 30px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+.inp2{
+	border:2px solid #D8D8D8;
+	width: 500px;
+	height: 40px;
+	margin-top: 10px;
+	background-image: url("../img/email.png");
+	background-size: 40px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}
+.inp3{
+	border:2px solid #D8D8D8;
+	width: 500px;
+	height: 100px;
+	margin-top: 10px;
+	background-image: url("../img/lapiz.png");
+	background-size: 40px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-top: -50px;
+}
+
+.btnEnv{
+	width: 500px;
+	height: 50px;
+	background-color: #0A0A2A;
+	text-align: center;
+	border:1px solid #334375;
+	color: #D8D8D8;
+	font-family: Latolight;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.backFoot1{
+	background-color: #0A0A2A;
+}
+.Pfoot1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Latolight;
+	color: #D8D8D8;
+	font-size: 10px;
+	margin-left: 30px;
+}

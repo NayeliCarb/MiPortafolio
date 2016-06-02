@@ -1,0 +1,175 @@
+/* MENÚ */
+.p-t-5{
+	padding-top: 5%;
+}
+.p-t-10{
+	padding-top: 10%;
+}
+.p-t-15{
+	padding-top: 15%;
+}
+.mg-t-neg{
+	margin-top: -1.5%;
+}
+.m-t-1-neg{
+	margin-top: -4%;
+}
+.m-t-5{
+	margin-top: 5%;
+}
+.m-t-20{
+	margin-top: 20%;
+}
+.m-l-2{
+	margin-left: 2%;
+}
+.m-l-5{
+	margin-left: 5%;
+}
+.m-l-10{
+	margin-left: 10%;
+}
+.m-l-25{
+	margin-left: 25%;
+}
+.height{
+	left: .1em;
+	height: 900px;
+}
+/* LOGIN*/
+.advent{
+	height: 100px;
+	border-radius: 10px 10px 0 0;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.adventure{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 5%;
+}
+.h5{
+	float: right;
+	color: blue;
+	font-size: 18px;
+}
+.btn-default{
+	width: 100%;
+	background-color: #dfdfdf;
+}
+.width{
+	width: auto !important;
+	display: inline-block;
+	position: relative;
+}
+.mg-l-r{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #fff;
+	padding: 5%;
+}
+.mg-l-r-5{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.bg-grey{
+	background-color: #dfdfdf;
+}
+.text-blue{
+	color: blue;
+}
+.inline{
+	display: inline-block;
+	position: relative;
+}
+.border-b{
+	margin: 2%;
+	width: 15%;
+	height: 100px;
+	border-bottom: 2px solid;
+	display: inline-block;
+	position: relative;
+}
+
+.border-b-blank{
+	margin: auto;
+	width: cover;
+	height: 150px;
+	border-bottom: 2px solid;
+	margin-bottom: 3%;
+	display: block;
+}
+/* BUTTONS*/
+
+.header{
+	left: 9em;
+	right: 2em;
+	height: auto;
+	padding: 1% 2%;
+	color: #fff;
+	background-color: #5A5A6A;
+}
+.bg-grey{
+	background-color: grey;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 2%;
+	display: inline-block;
+	position: relative;
+}
+.bg-light{
+	background-color: #fff;
+}
+
+.img{
+	width: 60px;
+	height: 60px;
+	margin-left: 30%;
+	margin-top: 3em;
+}
+.bg-df{
+	background-color: #dfdfdf;
+}
+.white{
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	padding: 2%;
+	margin-top: 5%;
+	color: grey;
+	font-size: 18px;
+	box-shadow: 0 0 10px 0 grey;
+}
+.white1{
+	background-color: #fff;
+	width: 105%;
+	height: auto;
+	padding: 2%;
+	margin-top: 7%;
+	color: grey;
+	font-size: 18px;
+	box-shadow: 0 0 10px 0 grey;
+}
+.mg-b{
+	margin-bottom: 3%;
+}
+.text-center{
+	text-align: center;
+}
+
+/*GALLERY*/
+
+.img-gallery{
+	width: 100%;
+	height: auto;
+	padding: 3%;
+	
+}
+.azul{
+	color: blue;
+}

@@ -1,0 +1,115 @@
+/* css de header*/
+li{
+	list-style-type: none;
+	margin:20px;
+	display: inline-block;
+}
+h1{
+	margin-top: 20px;
+	text-align: center;
+}
+/*BLOG*/
+.blog1{
+	background-color: #A4A4A4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 200px;
+}
+.imgBlog{
+	width: 230px;
+	height: 200px;
+	margin-left: -13px;
+	padding-bottom: -8px;
+}
+h5{
+	margin-top: 10px;
+}
+.fecha{
+	font-size: 15px;
+	margin-top: 5px;
+}
+.desc{
+	font-size: 16px;
+	margin-top: 5px;
+}
+button{
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+	background-color: #0A0A2A;
+	text-align: center;
+	border:1px solid #334375;
+	color: #D8D8D8;
+	font-family: Latolight;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+/*PARTE DE CONTACTANOS*/
+.back4{
+	width: 60%;
+	height: 400px;
+	position: absolute;	
+	margin-left: 500px;
+}
+.pConta{
+	font-family: Latolight;
+	margin-top: 60px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.inp1{
+	border:2px solid #D8D8D8;
+	width: 500px;
+	height: 40px;
+	margin-top: 10px;
+	background-image: url("../img/perfil.png");
+	background-size: 30px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+.inp2{
+	border:2px solid #D8D8D8;
+	width: 500px;
+	height: 40px;
+	margin-top: 10px;
+	background-image: url("../img/email.png");
+	background-size: 40px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}
+.inp3{
+	border:2px solid #D8D8D8;
+	width: 500px;
+	height: 100px;
+	margin-top: 10px;
+	background-image: url("../img/lapiz.png");
+	background-size: 40px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-top: -50px;
+}
+.btnEnv{
+	width: 500px;
+	height: 50px;
+	background-color: #0A0A2A;
+	text-align: center;
+	border:1px solid #334375;
+	color: #D8D8D8;
+	font-family: Latolight;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* FOOTER */
+.backFoot1{
+	background-color: #0A0A2A;
+}
+.Pfoot1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Latolight;
+	color: #D8D8D8;
+	font-size: 10px;
+	margin-left: 30px;
+}

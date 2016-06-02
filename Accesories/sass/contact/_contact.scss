@@ -1,0 +1,56 @@
+#contact{
+	background-image: url(../images/client-bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 30em;
+	padding-top: 10%;
+	p{
+		font-weight: 600;
+		font-size: 3.5em;
+		background-color: #FD845A;
+		color: white;
+		display: inline-block;
+		padding-right: 2%;
+		margin-top: 5%;
+	}
+	span{
+		display: block;
+		margin: 3% 0 3% 0;
+		color: white;
+
+	}
+}
+#map{
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	input{
+		border: none;
+		background-color: #E6E0E0;
+		height: 2.5em;
+		margin-bottom:3%; 
+		margin-left: 2%;
+	}
+	.inpDos{
+		width: 45%;
+	}
+	input{
+		padding-left: 1%;
+	}
+	.inpTres{
+		width: 93%;
+	}
+	.mess{
+		height: 10em;
+		padding-bottom: 19%;
+	}
+	button{
+		border: none;
+		background-color: #5E5C5C;
+		color: white;
+		width: 5em;
+		height: 3em;
+		float: right;
+		margin-right: 5%;
+	}
+}
