@@ -1,11 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Bad+Script);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 
 body {
-  background: #f6f1ed; 
-  color: #E3DC19;
+  background: rgba(253, 103, 106, 0.56); 
+  color: #6D1672;
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
 }
 
 
@@ -80,28 +83,42 @@ body {
 }
 
 h2{
-    color: #bcd5d1;
+    color: rgb(255, 255, 254);
     text-shadow:
-    4px 4px 0px #ba9077,
-    9px 8px 0px #5a5c51;
+    4px 4px 0px #FDA9AB,
+    9px 8px 0px #0E0E0D;
 
     font-size: 60px;
     font-family: 'Lobster', cursive;
   }
 
 #proyectos{
-  
+    
+    p{
+      font-size: 2em;
+      text-align: center;
+    }
+    .thumb3 span{
+      margin-left: 75%;
+    }
     .thumb {
       width: 18em; height: 18em; margin: 70px auto;
       perspective: 1000px;
       margin-left: 10%;
+    }
+    .text{
+      left: -187px !important;
+    }
+    .skil{
+      position: absolute;
+      margin-left: 42%;
     }
     .thumb a {
       display: block; width: 100%; height: 100%;
       /*double layered BG for lighting effect*/
       background: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-        url(../images/sem.jpg);
+        url(../images/kane.png);
       /*disabling the translucent black bg on the main image*/
       background-size: 0, cover;
       /*3d space for children*/
@@ -165,7 +182,7 @@ h2{
         background-size: 0, cover !important;
       }
        .thumb3 a{
-        margin-left: 75%;
+        margin-left: 40%;
          background: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
         url(../images/gen.jpg) !important;
@@ -315,6 +332,9 @@ footer{
       margin-left: 14%;
       margin-top: 12%;
     }
+    p{
+      font-size: 1.5em;
+    }
 	}
 	#header{
 		h1{
@@ -352,6 +372,13 @@ footer{
     .thumb a{
       width: 83%;
       height: 83%;
+    }
+    p{
+      font-size: 1.5em;
+      margin-left: -13%;
+    }
+    .skil{
+      margin-left: 17%;
     }
   }
   #me{

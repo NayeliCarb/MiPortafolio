@@ -1,0 +1,377 @@
+#back .row {
+  background-color: #088A4B; }
+#back .icon-bar {
+  border: 1px solid white; }
+
+#PriSec {
+  background-image: url(../img/carousel-bg.jpg);
+  background-size: 100% 100%;
+  height: 30em;
+  margin-top: -2%; }
+
+#PriSec h1 {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  letter-spacing: 2%;
+  margin-top: 5%;
+  font-weight: 300; }
+#PriSec p {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 100;
+  letter-spacing: 5%; }
+
+#palette h1 {
+  text-align: center; }
+#palette hr {
+  border: .2px solid gray;
+  margin-left: 40%;
+  margin-right: 40%; }
+#palette .palett {
+  width: 20%;
+  height: 10em;
+  display: inline-block !important;
+  text-align: center; }
+#palette .colorUno {
+  background-color: #69D2E7; }
+#palette .colorDos {
+  background-color: #A7DBDB;
+  margin-left: -1%; }
+#palette .colorTres {
+  background-color: #E0E4CC;
+  margin-left: -1%; }
+#palette .colorCuatro {
+  background-color: #F38630;
+  margin-left: -1%; }
+#palette .colorCinco {
+  background-color: #FA6900;
+  margin-left: -1%; }
+
+#segRow .palett {
+  width: 20%;
+  height: 10em;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 1%; }
+#segRow .colorUno {
+  background-color: #E94C6F; }
+#segRow .colorDos {
+  background-color: #542733;
+  margin-left: -1%; }
+#segRow .colorTres {
+  background-color: #5A6A62;
+  margin-left: -1%; }
+#segRow .colorCuatro {
+  background-color: #C6D5CD;
+  margin-left: -1%; }
+#segRow .colorCinco {
+  background-color: #FDF200;
+  margin-left: -1%; }
+
+#terRow .palett {
+  width: 20%;
+  height: 10em;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 1%; }
+#terRow .colorUno {
+  background-color: #DB3340; }
+#terRow .colorDos {
+  background-color: #E8B71A;
+  margin-left: -1%; }
+#terRow .colorTres {
+  background-color: #F7EAC8;
+  margin-left: -1%; }
+#terRow .colorCuatro {
+  background-color: #1FDA9A;
+  margin-left: -1%; }
+#terRow .colorCinco {
+  background-color: #28ABE3;
+  margin-left: -1%; }
+
+#cuaRow .palett {
+  width: 20%;
+  height: 10em;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 1%; }
+#cuaRow .colorUno {
+  background-color: #588C73; }
+#cuaRow .colorDos {
+  background-color: #F2E394;
+  margin-left: -1%; }
+#cuaRow .colorTres {
+  background-color: #F2AE72;
+  margin-left: -1%; }
+#cuaRow .colorCuatro {
+  background-color: #D96459;
+  margin-left: -1%; }
+#cuaRow .colorCinco {
+  background-color: #8C4646;
+  margin-left: -1%; }
+
+#cinRow .palett {
+  width: 20%;
+  height: 10em;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 1%; }
+#cinRow .colorUno {
+  background-color: #DOC91F; }
+#cinRow .colorDos {
+  background-color: #85C4B9;
+  margin-left: -1%; }
+#cinRow .colorTres {
+  background-color: #008BBA;
+  margin-left: -1%; }
+#cinRow .colorCuatro {
+  background-color: #DF514C;
+  margin-left: -1%; }
+#cinRow .colorCinco {
+  background-color: #DC403B;
+  margin-left: -1%; }
+
+.zoomIt {
+  display: block !important;
+  -webkit-transition: -webkit-transform 1s ease-out;
+  -moz-transition: -moz-transform 1s ease-out;
+  -o-transition: -o-transform 1s ease-out;
+  -ms-transition: -ms-transform 1s ease-out;
+  transition: transform 1s ease-out; }
+
+.zoomIt:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+#aboutUs {
+  background-color: #446E77;
+  color: white;
+  margin-top: 2%;
+  padding-top: 10%;
+  padding-bottom: 10%; }
+  #aboutUs h1 {
+    text-align: center; }
+  #aboutUs hr {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 2%; }
+  #aboutUs p {
+    font-weight: 100; }
+  #aboutUs .progress {
+    border: 2px solid white;
+    border-radius: 0px;
+    height: 1em;
+    margin-bottom: 5%; }
+  #aboutUs span {
+    margin-top: -4% !important;
+    position: absolute; }
+  #aboutUs img {
+    width: 100%;
+    height: 25em; }
+
+#whatDo {
+  color: white;
+  text-align: center;
+  background-color: #088A4B; }
+  #whatDo hr {
+    margin-left: 40%;
+    margin-right: 40%; }
+  #whatDo h2 {
+    margin-top: 10%; }
+  #whatDo .divwhat {
+    text-align: center;
+    padding: 3%; }
+  #whatDo .bgimg {
+    background: -moz-linear-gradient(left, #4d4d4d 0%, #595959 12%, #666666 25%, #48484a 36%, #474747 36%, #2b2b2b 50%, #726dc2 51%, #3c3570 60%, #4d578a 76%, #44478a 91%, #121212 100%); }
+  #whatDo .zoomIt:hover {
+    background-color: #578E58;
+    width: 25%; }
+  #whatDo .bgimg:hover {
+    animation: rotateIn; }
+
+/*CHECAR ANIMACIONES*/
+#divWhat h3 {
+  font-weight: 300; }
+#divWhat p {
+  font-weight: 100;
+  color: #BDBDBD; }
+#divWhat img {
+  /*no agarra back*/
+  background: -ms-linear-gradient(left, #4d4d4d 0%, #595959 12%, #666666 25%, #48484a 36%, #474747 36%, #2b2b2b 50%, #726dc2 51%, #3c3570 60%, #4d578a 76%, #44478a 91%, #121212 100%);
+  background-image: url(); }
+
+button {
+  background-color: #2E2E2E !important;
+  color: white !important;
+  position: static;
+  border: none;
+  width: 10em;
+  height: 3em; }
+
+#icon span {
+  display: block; }
+#icon i {
+  color: #BDBDBD !important;
+  margin-top: 5%;
+  padding: 2%;
+  margin-bottom: 50%; }
+
+#bestPrice {
+  background-color: #446E77;
+  color: white;
+  text-align: center;
+  padding-top: 10%; }
+  #bestPrice hr {
+    margin-left: 45%;
+    margin-right: 45%; }
+  #bestPrice h2 {
+    font-size: 5em;
+    font-weight: 100; }
+
+.uno {
+  margin-left: 10%; }
+
+.nueva, .nueva1 {
+  background-color: transparent;
+  border: 1px solid #49E72A;
+  margin-left: 2%;
+  margin-bottom: 10%; }
+
+.nueva1 {
+  height: 100%; }
+
+.nueva1:hover {
+  border: solid #F36D0B;
+  margin-top: -5% !important;
+  background-color: #C3842A;
+  z-index: inherit;
+  width: 20%;
+  height: 110%; }
+
+.pCua1 {
+  padding: 10%;
+  font-size: 2em;
+  font-weight: 100; }
+
+.cuadro2 {
+  background-color: #77D58D;
+  margin: -5.5%;
+  margin-bottom: 5%; }
+
+.num {
+  font-size: 2em;
+  display: inline-block;
+  font-weight: 100; }
+
+.deta {
+  background-color: white;
+  color: #1C2078;
+  padding: 2%;
+  margin: -5.5%;
+  margin-bottom: 5%;
+  height: 2em; }
+
+button {
+  margin-top: 10%;
+  background-color: #783232 !important; }
+
+#whatClient hr {
+  margin-left: 45%;
+  margin-right: 45%; }
+#whatClient p {
+  text-align: center;
+  font-weight: 100;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%; }
+#whatClient .autor {
+  color: #F57504 !important;
+  margin-top: -0%; }
+
+#getTouch {
+  background-color: #446E77;
+  text-align: center; }
+  #getTouch h2 {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20%; }
+  #getTouch span {
+    display: block;
+    color: white; }
+  #getTouch hr {
+    margin-left: 45%;
+    margin-right: 45%; }
+  #getTouch input {
+    width: 60%;
+    height: 3em;
+    margin-top: 2%; }
+  #getTouch .inpMess {
+    height: 10em;
+    margin-top: 2%; }
+  #getTouch button {
+    background-color: #2E2E2E !important;
+    color: white !important;
+    display: block;
+    border: none;
+    width: 10em;
+    height: 3em;
+    margin-left: 45%;
+    margin-top: 2%; }
+  #getTouch p {
+    color: white;
+    text-align: initial;
+    margin-left: 20%; }
+
+#iconos {
+  background-image: url(../img/img-divider-img.jpg);
+  background-size: 100% 60%;
+  height: 10em;
+  padding-top: -10%;
+  background-repeat: repeat-y;
+  padding-left: 20%;
+  padding-top: 5%;
+  padding-bottom: 10%; }
+  #iconos i {
+    font-size: 6em;
+    color: white !important;
+    margin-left: 3%; }
+
+footer {
+  background-color: #088A4B; }
+  footer h3 {
+    color: white;
+    text-align: center; }
+  footer hr {
+    margin-left: 40%;
+    margin-right: 40%; }
+
+#iconFoot i {
+  display: block;
+  color: white;
+  margin-left: 30% !important;
+  margin-top: 5%;
+  letter-spacing: 10%; }
+#iconFoot .input-group {
+  float: right !important;
+  border-radius: 10px 0px 0px 10px; }
+#iconFoot .input-group-addon {
+  float: left !important;
+  position: absolute;
+  margin-left: -15%;
+  margin-top: -18%;
+  border-radius: 10px 0px 0px 10px; }
+#iconFoot .icoInpu {
+  color: #E55C12; }
+#iconFoot button {
+  margin-left: 40% !important;
+  background-color: #2C2B2B !important; }
+
+/*# sourceMappingURL=main.scss.map */
+
+/*# sourceMappingURL=main.css.map */
