@@ -1,3 +1,6 @@
+.row {
+  margin-right: 0px; }
+
 #back .row {
   background-color: #088A4B; }
 #back .icon-bar {
@@ -372,6 +375,25 @@ footer {
   margin-left: 40% !important;
   background-color: #2C2B2B !important; }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  #palette .palett {
+    width: 18%;
+    height: 3em; }
+
+  #palette p {
+    font-size: 10px; }
+
+  #bestPrice h2 {
+    font-size: 3em; }
+
+  #iconos i {
+    font-size: 3em; }
+
+  #PriSec h1 {
+    font-size: 2em; }
+
+  #aboutUs img {
+    margin-left: 16px; } }
 /*# sourceMappingURL=main.scss.map */
 
 /*# sourceMappingURL=main.css.map */
