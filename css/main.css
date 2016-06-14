@@ -221,6 +221,9 @@ footer {
   footer span {
     font-size: 1.5em;
     color: #b5a397; }
+  footer .descarga {
+    width: 4em;
+    height: 4em; }
 
 @media (min-width: 0px) and (max-width: 480px) {
   footer span {
